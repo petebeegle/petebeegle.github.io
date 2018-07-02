@@ -1,6 +1,12 @@
 h1 {
     font-size: 4.5rem;
 }
-a {
+a:not(.dropdown-menu-item) {
     font-size: 1.75rem !important;
+}
+.dropdown {
+    padding: 12px 6px;
+}
+a.dropdown-menu-item {
+    padding: 10px;
 }
